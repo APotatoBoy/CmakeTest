@@ -1,0 +1,5 @@
+set(SELECT_SRC select.cpp)
+ADD_DEFINITIONS(-D_DEBUG)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR})
+ADD_LIBRARY(Select STATIC ${SELECT_SRC})
+

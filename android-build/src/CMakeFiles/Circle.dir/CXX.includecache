@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/edward/code/Circle/src/Circle.cpp
+Circle.h
+/home/edward/code/Circle/src/Circle.h
+
+/home/edward/code/Circle/src/Circle.h
+

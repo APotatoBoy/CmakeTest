@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSelect.a  CMakeFiles/Select.dir/select.cpp.o
+/usr/bin/ranlib libSelect.a

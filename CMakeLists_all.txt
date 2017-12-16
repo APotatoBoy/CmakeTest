@@ -1,0 +1,27 @@
+PROJECT(test)
+cmake_minimum_required(VERSION 2.6)
+find_package(OpenCV REQUIRED)
+include_directories(${OpenCV_INCLUDE_DIRS})
+file(GLOB SRC
+	./src/img/*.cpp
+	./src/cir/*.cpp
+	./src/select/*.cpp
+	)
+file(GLOB HDR
+	./src/img/*.h
+	./src/cir/*.h
+	./src/select/*.h)
+
+include_directories(src/img/)
+include_directories(src/cir/)
+include_directories(src/select/)
+
+#link_directories({test_SOURCE_DIR}/src/img/*.h)
+#link_directories({test_SOURCE_DIR}/src/cir/*.h)
+#link_directories({test_SOURCE_DIR}/src/select/*.h)
+ADD_DEFINITIONS(-D_DEBUG)
+add_executable(main ./main.cpp ${SRC} ${HDR})
+
+add_library(total STATIC ${SRC} ${HDR})
+target_link_libraries(main ${OpenCV_LIBS})
+

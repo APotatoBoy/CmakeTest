@@ -1,0 +1,20 @@
+Start testing: Dec 07 00:46 CST
+----------------------------------------------------------
+1/1 Testing: mytest
+1/1 Test: mytest
+Command: "/home/edward/code/Circle/build/bin/main"
+Directory: /home/edward/code/Circle/build
+"mytest" start time: Dec 07 00:46 CST
+Output:
+----------------------------------------------------------
+Area1:78.5
+10
+<end of output>
+Test time =   6.10 sec
+----------------------------------------------------------
+Test Passed.
+"mytest" end time: Dec 07 00:47 CST
+"mytest" time elapsed: 00:00:06
+----------------------------------------------------------
+
+End testing: Dec 07 00:47 CST

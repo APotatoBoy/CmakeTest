@@ -1,0 +1,2 @@
+/home/edward/installation/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc-ar qc libImg.a  CMakeFiles/Img.dir/img.cpp.o
+/home/edward/installation/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ranlib libImg.a

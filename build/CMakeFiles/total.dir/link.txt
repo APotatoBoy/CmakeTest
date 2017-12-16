@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtotal.a  CMakeFiles/total.dir/src/img/img.cpp.o CMakeFiles/total.dir/src/cir/Circle.cpp.o CMakeFiles/total.dir/src/select/select.cpp.o
+/usr/bin/ranlib libtotal.a

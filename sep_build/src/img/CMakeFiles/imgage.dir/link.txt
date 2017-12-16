@@ -1,0 +1,2 @@
+/usr/bin/ar qc libimgage.a  CMakeFiles/imgage.dir/img.cpp.o
+/usr/bin/ranlib libimgage.a
